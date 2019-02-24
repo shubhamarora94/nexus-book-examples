@@ -3,6 +3,15 @@
   -->
   <!-- <localRepository>/path/to/local/repo</localRepository>
   -->
+  <proxies>
+  <proxy>
+    <id>proxy</id>
+    <active>true</active>
+    <protocol>http</protocol>
+    <host>proxy.example.com</host>
+    <port>8080</port>
+  </proxy>
+</proxies>
     <mirrors>
     <mirror> <!--Send all requests to the public group -->
       <id>nexus</id>
